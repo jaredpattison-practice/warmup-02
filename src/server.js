@@ -10,7 +10,7 @@ app.use( express.static(`${__dirname}/../public`));
 
 app.use(express.json());
 
-app.length('/', (req,res) => {
+app.get('/', (req,res) => {
   res.send('<h1>Hello</h1>');
 });
 
