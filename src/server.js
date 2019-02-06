@@ -38,6 +38,6 @@ module.exports = {
   server: app,
   start: () => {
     const PORT = process.env.port || 3000;
-    app.listen(PORT, () => console.log('server up'));
+    app.listen(PORT, () => console.log(`Server up on PORT:${PORT}`));
   },
 };
