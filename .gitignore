@@ -2,7 +2,6 @@
 db
 .env
 temp
-build
 
 # Created by https://www.gitignore.io/api/vim,osx,node,linux,windows
 ### Linux ###
